@@ -23,7 +23,7 @@ rtm.on('ready', async () => {
 
 rtm.on('message', function (message) {
 	var text = message.text;
-	//console.log (message.text, message.channel, message.user );
+	console.log (message.text, message.channel, message.user );
 	if(message.user == tuser) {
 		switch(status) {
 			case 1:
